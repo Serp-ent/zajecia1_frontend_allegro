@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <h1>Employment Form</h1>
+      <section class="name">
+        <label for="first-name">First name</label>
+        <input type="text" id="first-name" />
+
+        <label for="last-name">Last name</label>
+        <input type="text" id="last-name" />
+      </section>
+
+      <section class="contact">
+        <label for="email">E-mail</label>
+        <input type="mail" id="email" />
+
+        <label for="phone">Phone</label>
+        <input type="text" id="phone" />
+
+        <label for="date-of-birth">Date of birth</label>
+        <input type="date" id="date-of-birth" />
+      </section>
+
+      <label for="gender">Gender</label>
+      <select name="gender" id="gender">
+        <option value="man">Man</option>
+        <option value="woman">Woman</option>
+        <option value="unknown">Don't want to share</option>
+      </select>
+
+      <h3>What are you looking for</h3>
+      <input
+        type="radio"
+        name="looking-for"
+        id="software-engineer"
+        value="software-engineer"
+      />
+      <label for="software-engineer">Software Engineer</label>
+
+      <input
+        type="radio"
+        name="looking-for"
+        id="ux-designer"
+        value="ux-designer"
+      />
+      <label for="ux-designer">UX Designer</label>
+
+      <input
+        type="radio"
+        name="looking-for"
+        id="analytics-specialist"
+        value="analytics-specialist"
+      />
+      <label for="analytics-specialist">Analytics Specialist</label>
+
+      <input
+        type="radio"
+        name="looking-for"
+        id="project-manager"
+        value="software-engineer"
+      />
+      <label for="project-manager">Project Manager</label>
+
+      <h3>Which programming languages do you know?</h3>
+      <input type="checkbox" name="java" id="java" />
+      <label for="java">Java</label>
+
+      <input type="checkbox" name="javascript" id="javascript" />
+      <label for="javascript">Javascript</label>
+
+      <input type="checkbox" name="c-sharp" id="c-sharp" />
+      <label for="c-sharp">C#</label>
+
+      <input type="checkbox" name="kotlin" id="kotlin" />
+      <label for="kotlin">Kotlin</label>
+
+      <input type="checkbox" name="python" id="python" />
+      <label for="python">Python</label>
+
+      <input type="checkbox" name="scala" id="scala" />
+      <label for="scala">Scala</label>
+
+      <label for="message"></label>
+      <textarea placeholder="Type your message" id="message"></textarea>
+      <button>Reset</button>
+      <button>Submit</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+form {
+  border: 1px solid black;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+form h1,
+form label {
+  color: orange;
+}
+
+form input {
+  padding: 4px 8px;
+  border: 1px solid black;
+  border-radius: 0.3rem;
+}
+
+form h1 {
+  font-weight: 700;
+
+}
+
+form label {
+  font-size: 0.9rem;
+
+}
